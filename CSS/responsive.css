@@ -1,0 +1,72 @@
+/* tablet */
+@media (max-width: 1024px) {
+
+  .hero-titulo { font-size: 2.6rem; }
+
+  /* 4 columnas hacia 2 columnas */
+  .destacadas-grid { grid-template-columns: repeat(2, 1fr); }
+  .voluntariado-grid { grid-template-columns: repeat(2, 1fr); }
+  .testimonios-grid { grid-template-columns: repeat(2, 1fr); }
+
+  /* La galería grid se simplifica */
+  .galeria-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+  .galeria-grande { grid-column: span 2; grid-row: span 1; }
+  .galeria-ancha { grid-column: span 2; }
+}
+
+
+/*movil
+
+aqui se busca que el menu se oculte y aparezca el boton de hamburguesa
+ademas de pasar las secciones todp a una sola columna*/
+@media (max-width: 768px) {
+  .nav-menu { display: none; }
+  .btn-nav { display: none; }
+  .hamburger { display: flex; }
+
+  .hero { min-height: 70vh; }
+  .hero-titulo { font-size: 2rem; }
+  .hero-slogan { font-size: 1rem; }
+
+  
+  .destacadas-grid { grid-template-columns: 1fr; }
+  .mv-grid { grid-template-columns: 1fr; }
+  
+  .voluntariado-grid { grid-template-columns: repeat(2, 1fr); }
+  .testimonios-grid { grid-template-columns: 1fr; }
+
+  
+  .donaciones-contenido {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  /* GALERÍA */
+  .galeria-grid { grid-template-columns: 1fr; }
+  .galeria-grande,
+  .galeria-ancha { grid-column: span 1; }
+
+  /* FOOTER */
+  .footer-grid { flex-direction: column; }
+}
+
+
+
+@media (max-width: 480px) {
+
+  .hero-titulo { font-size: 1.7rem; }
+  .section-header h2 { font-size: 1.7rem; }
+
+  .hero-botones { flex-direction: column; align-items: flex-start; }
+
+  .voluntariado-grid { grid-template-columns: 1fr; }
+
+  .animales-grid { grid-template-columns: 1fr; }
+
+  .carrusel-seccion { height: 280px; }
+
+  .navbar { padding: 1rem; }
+}
