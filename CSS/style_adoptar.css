@@ -1,0 +1,163 @@
+/* ESTILOS EXCLUSIVOS DE adoptar.html*/
+
+.pagina-banner {
+  background-color: var(--naranja);
+  padding: 3rem 0 2rem;
+  color: var(--blanco);
+}
+
+.banner-ruta {
+  font-size: 0.85rem;
+  margin-bottom: 0.8rem;
+  opacity: 0.85;
+}
+
+.banner-ruta a {
+  color: var(--blanco);
+  text-decoration: underline;
+}
+
+.banner-titulo {
+  font-family: var(--fuente-titulo);
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.banner-subtitulo {
+  font-size: 1rem;
+  opacity: 0.9;
+  max-width: 500px;
+}
+
+
+/* Filtros visuales */
+.filtros-seccion {
+  padding: 1.5rem 0;
+  background-color: var(--blanco);
+  border-bottom: 2px solid var(--borde);
+  position: sticky;
+  top: 65px;
+
+  z-index: 50;
+}
+
+.filtros-grupo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.filtros-label {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--texto-suave);
+  white-space: nowrap;
+}
+
+.filtros-botones {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.filtro-btn {
+  padding: 0.4rem 1rem;
+  border-radius: 50px;
+  border: 2px solid var(--borde);
+  background-color: var(--blanco);
+  color: var(--texto);
+  font-family: var(--fuente-texto);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.filtro-btn:hover {
+  border-color: var(--naranja);
+  color: var(--naranja);
+}
+
+.filtro-activo {
+  background-color: var(--naranja);
+  color: var(--blanco);
+  border-color: var(--naranja);
+}
+
+
+/* Catálogo */
+.catalogo-seccion {
+  padding: 3rem 0 5rem;
+  background-color: var(--fondo);
+}
+
+.catalogo-total {
+  font-size: 0.9rem;
+  color: var(--texto-suave);
+  margin-bottom: 1.5rem;
+}
+
+.catalogo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.animal-badge {
+  position: absolute;
+  top: 0.8rem;
+  left: 0.8rem;
+  background-color: var(--amarillo);
+  color: #7a5c00;
+  padding: 3px 10px;
+  border-radius: 50px;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.animal-badge.nuevo {
+  background-color: var(--verde);
+  color: var(--blanco);
+}
+
+.animal-card--adoptado {
+  opacity: 0.7;
+  filter: grayscale(30%);
+  
+}
+
+.animal-detalles {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 0.8rem;
+  font-size: 0.85rem;
+  color: var(--texto-suave);
+}
+
+
+.adoptar-cta {
+  padding: 4rem 0;
+  background-color: var(--verde);
+}
+
+.cta-contenido {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.cta-texto h2 {
+  font-family: var(--fuente-titulo);
+  font-size: 1.8rem;
+  color: var(--blanco);
+  margin-bottom: 0.5rem;
+}
+
+.cta-texto p {
+  color: rgba(255,255,255,0.85);
+}

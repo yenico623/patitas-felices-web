@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Animales en adopción — Fundación Patitas Felices">
+  <title>Adoptar | Patitas Felices 🐾</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="CSS/style_adoptar.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="index.html" class="nav-logo">🐾 <span>Patitas</span> Felices</a>
+
+      <ul class="nav-menu">
+        <li><a href="index.html"    class="nav-link">Inicio</a></li>
+        <li><a href="adoptar.html"  class="nav-link active">Adoptar</a></li>
+        <li><a href="#donaciones"   class="nav-link">Donaciones</a></li>
+        <li><a href="#voluntariado" class="nav-link">Voluntariado</a></li>
+        <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+      </ul>
+
+      <a href="contacto.html" class="btn btn-nav">❤️</a>
+
+      <button class="hamburger" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+
+  <main>
+
+    <section class="pagina-banner">
+      <div class="container">
+        <p class="banner-ruta">
+          <a href="index.html">Inicio</a>
+          <span> › </span>
+          <span>Adoptar</span>
+        </p>
+        <h1 class="banner-titulo">Animales en adopción 🐾</h1>
+        <p class="banner-subtitulo">
+          Estos peluditos esperan un hogar lleno de amor.
+          Cada adopción salva una vida.
+        </p>
+      </div>
+    </section>
+
+    <section class="filtros-seccion">
+      <div class="container">
+        <div class="filtros-grupo">
+          <span class="filtros-label">Filtrar por:</span>
+
+          <div class="filtros-botones">
+            <button class="filtro-btn filtro-activo">Todos</button>
+            <button class="filtro-btn">Perros</button>
+            <button class="filtro-btn">Gatos</button>
+            <button class="filtro-btn">Otros</button>
+            <button class="filtro-btn">Disponibles</button>
+            <button class="filtro-btn">Adoptados</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="catalogo-seccion">
+      <div class="container">
+
+        <p class="catalogo-total">
+          Mostrando <strong>10 animales</strong> disponibles
+        </p>
+
+        <div class="catalogo-grid">
+
+          
+          <article class="animal-card">
+            <div class="animal-imagen">
+              <img src="../patitas-felices-web/img/labrador.webp" alt="Max, perro Labrador de 2 años">
+              <span class="animal-estado disponible">Disponible</span>
+            </div>
+            <div class="animal-info">
+              <h2 class="animal-nombre">Max</h2>
+             
+              <ul class="animal-detalles">
+                <li><strong>Raza:</strong> Labrador</li>
+                <li><strong>Edad:</strong> 2 años</li>
+                <li><strong>Tamaño:</strong> Mediano</li>
+                <li>⚥  <strong>Sexo:</strong> Macho</li>
+              </ul>
+              <p class="animal-desc">
+                Amigable, juguetón y muy cariñoso. Le encanta correr
+                y jugar con niños. Vacunado y esterilizado.
+              </p>
+              <a href="perfil-animal.html" class="btn btn-primario btn-pequeno">
+                Ver perfil
+              </a>
+            </div>
+          </article>
+
+
+          
+          <article class="animal-card">
+            <div class="animal-imagen">
+              <img src="../patitas-felices-web/img/gata persa.jpeg" alt="Luna, gata Persa de 1 año">
+              <span class="animal-estado disponible">Disponible</span>
+            </div>
+            <div class="animal-info">
+              <h2 class="animal-nombre">Luna</h2>
+              <ul class="animal-detalles">
+                <li><strong>Raza:</strong> Persa</li>
+                <li><strong>Edad:</strong> 1 año</li>
+                <li><strong>Tamaño:</strong> Pequeña</li>
+                <li>⚥  <strong>Sexo:</strong> Hembra</li>
+              </ul>
+              <p class="animal-desc">
+                Tranquila, independiente y muy cariñosa.
+                Perfecta para apartamentos. Le encanta la calma.
+              </p>
+              <a href="perfil-animal.html" class="btn btn-primario btn-pequeno">
+                Ver perfil
+              </a>
+            </div>
+          </article>
+
+
+          
+          <article class="animal-card animal-card--adoptado">
+            <div class="animal-imagen">
+              <img src="../patitas-felices-web/img/perrom.avif" alt="Rocky, perro Mestizo de 4 años — ya adoptado">
+              <span class="animal-estado adoptado">Adoptado</span>
+            </div>
+            <div class="animal-info">
+              <h2 class="animal-nombre">Rocky</h2>
+              <ul class="animal-detalles">
+                <li><strong>Raza:</strong> Mestizo</li>
+                <li><strong>Edad:</strong> 4 años</li>
+                <li><strong>Tamaño:</strong> Grande</li>
+                <li>⚥  <strong>Sexo:</strong> Macho</li>
+              </ul>
+              <p class="animal-desc">
+                Leal y protector. Ya encontró su hogar eterno
+                con la familia Martínez. ¡Feliz Rocky! 
+              </p>
+              <button class="btn btn-gris btn-pequeno" disabled>
+                Ya adoptado
+              </button>
+            </div>
+          </article>
+
+          <article class="animal-card">
+            <div class="animal-imagen">
+              <img src="../patitas-felices-web/img/conejo.jpeg" alt="Coco, conejo de 8 meses">
+              <span class="animal-estado disponible">Disponible</span>
+            </div>
+            <div class="animal-info">
+              <h2 class="animal-nombre">Coco</h2>
+              <ul class="animal-detalles">
+                <li><strong>Raza:</strong> Conejo enano</li>
+                <li><strong>Edad:</strong> 8 meses</li>
+                <li><strong>Tamaño:</strong> Pequeño</li>
+                <li>⚥  <strong>Sexo:</strong> Macho</li>
+              </ul>
+              <p class="animal-desc">
+                Curioso, activo e independiente.
+                Ideal para familias con niños mayores de 8 años.
+              </p>
+              <a href="perfil-animal.html" class="btn btn-primario btn-pequeno">
+                Ver perfil
+              </a>
+            </div>
+          </article>
+
+
+          <article class="animal-card">
+            <div class="animal-imagen">
+              <img src="../patitas-felices-web/img/bella.jpeg" alt="Bella, perra Beagle de 3 años">
+              <span class="animal-estado disponible">Disponible</span>
+              <span class="animal-badge">Destacada</span>
+
+            </div>
+            <div class="animal-info">
+              <h2 class="animal-nombre">Bella</h2>
+              <ul class="animal-detalles">
+                <li><strong>Raza:</strong> Beagle</li>
+                <li><strong>Edad:</strong> 3 años</li>
+                <li><strong>Tamaño:</strong> Mediano</li>
+                <li>⚥  <strong>Sexo:</strong> Hembra</li>
+              </ul>
+              <p class="animal-desc">
+                Energética y muy sociable. Ama a los niños
+                y se lleva bien con otros perros.
+              </p>
+              <a href="perfil-animal.html" class="btn btn-primario btn-pequeno">
+                Ver perfil
+              </a>
+            </div>
+          </article>
+
+          <article class="animal-card">
+            <div class="animal-imagen">
+              <img src="../patitas-felices-web/img/siames.jpeg" alt="Milo, gato Siamés de 2 años">
+              <span class="animal-estado disponible">Disponible</span>
+            </div>
+            <div class="animal-info">
+              <h2 class="animal-nombre">Milo</h2>
+              <ul class="animal-detalles">
+                <li><strong>Raza:</strong> Siamés</li>
+                <li><strong>Edad:</strong> 2 años</li>
+                <li><strong>Tamaño:</strong> Mediano</li>
+                <li>⚥  <strong>Sexo:</strong> Macho</li>
+              </ul>
+              <p class="animal-desc">
+                Inteligente y vocal. Le encanta explorar
+                y jugar con juguetes interactivos.
+              </p>
+              <a href="perfil-animal.html" class="btn btn-primario btn-pequeno">
+                Ver perfil
+              </a>
+            </div>
+          </article>
+
+
+          <article class="animal-card animal-card--adoptado">
+            <div class="animal-imagen">
+              <img src="../patitas-felices-web/img/retriver.jpg" alt="Nala, perra Golden Retriever — ya adoptada">
+              <span class="animal-estado adoptado">Adoptada</span>
+            </div>
+            <div class="animal-info">
+              <h2 class="animal-nombre">Nala</h2>
+              <ul class="animal-detalles">
+                <li><strong>Raza:</strong> Golden Retriever</li>
+                <li><strong>Edad:</strong> 5 años</li>
+                <li><strong>Tamaño:</strong> Grande</li>
+                <li>⚥  <strong>Sexo:</strong> Hembra</li>
+              </ul>
+              <p class="animal-desc">
+                Dulce y paciente. Ahora vive feliz con
+                sus nuevos dueños en el barrio Cabecera. 
+              </p>
+              <button class="btn btn-gris btn-pequeno" disabled>
+                Ya adoptada
+              </button>
+            </div>
+          </article>
+
+
+          <!-- ========== TARJETA 8 ========== -->
+          <article class="animal-card">
+            <div class="animal-imagen">
+              <img src="../patitas-felices-web/img/dalmata.jpg" alt="Simba, perro Dálmata de 1 año">
+              <span class="animal-estado disponible">Disponible</span>
+              <span class="animal-badge nuevo">🆕 Nuevo</span>
+            </div>
+            <div class="animal-info">
+              <h2 class="animal-nombre">Simba</h2>
+              <ul class="animal-detalles">
+                <li><strong>Raza:</strong> Dálmata</li>
+                <li><strong>Edad:</strong> 1 año</li>
+                <li><strong>Tamaño:</strong> Grande</li>
+                <li>⚥ <strong>Sexo:</strong> Macho</li>
+              </ul>
+              <p class="animal-desc">
+                Lleno de energía y muy juguetón.
+                Necesita espacio y mucho ejercicio diario.
+              </p>
+              <a href="perfil-animal.html" class="btn btn-primario btn-pequeno">
+                Ver perfil
+              </a>
+            </div>
+          </article>
+
+        </div>
+   
+
+      </div>
+    </section>
+
+    <!--Seccion llamada a la accion-->
+    <section class="adoptar-cta">
+      <div class="container">
+        <div class="cta-contenido">
+          <div class="cta-texto">
+            <h2>¿No encontraste tu compañero ideal?</h2>
+            <p>Cuéntanos qué tipo de animal buscas y
+               te avisamos cuando llegue uno que encaje.</p>
+          </div>
+          <a href="contacto.html" class="btn btn-primario btn-grande">
+            Escríbenos
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer class="site-footer">
+    <div class="container">
+
+      <div class="footer-grid">
+
+        <div class="footer-marca">
+          <p class="footer-logo">🐾 Patitas Felices</p>
+          <p>Rescatamos, cuidamos y encontramos hogares amorosos.</p>
+          <p class="footer-copy">
+            © <time datetime="2025">2025</time> Fundación Patitas Felices.
+          </p>
+        </div>
+
+        <nav aria-label="Navegación del footer">
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="adoptar.html">Adoptar</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <address>
+          <h4>Contáctanos</h4>
+          <p>📧 <a href="mailto:info@patitasfelices.org">
+               info@patitasfelices.org</a></p>
+          <p>📱 <a href="tel:+573001234567">+57 300 123 4567</a></p>
+          <p>📍 Bucaramanga, Colombia</p>
+        </address>
+
+        <div class="footer-redes">
+          <h4>Síguenos</h4>
+          <a href="#" class="red-social" aria-label="Instagram">
+            Instagram
+          </a>
+          <a href="#" class="red-social" aria-label="Facebook">
+            Facebook
+          </a>
+          <a href="#" class="red-social" aria-label="TikTok">
+            TikTok
+          </a>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          <small>
+            Desarrollado por
+            <a href="https://github.com/yenico623"
+               target="_blank"
+               rel="noopener noreferrer">
+              Yenifer Cortez
+            </a>
+            — Proyecto académico 2026
+          </small>
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>

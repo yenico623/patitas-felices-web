@@ -70,3 +70,18 @@ ademas de pasar las secciones todp a una sola columna*/
 
   .navbar { padding: 1rem; }
 }
+
+/*RESPONIVE PARA ADOPTAR*/
+/* En tablet */
+@media (max-width: 768px) {
+  .filtros-grupo { flex-direction: column; align-items: flex-start; }
+  .cta-contenido { flex-direction: column; text-align: center; }
+  .banner-titulo { font-size: 2rem; }
+}
+
+/* En móvil */
+@media (max-width: 480px) {
+  .catalogo-grid { grid-template-columns: 1fr; }
+  .filtros-botones { gap: 0.4rem; }
+  .filtro-btn { font-size: 0.8rem; padding: 0.35rem 0.8rem; }
+}
