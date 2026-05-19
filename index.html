@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fundación Patitas Felices — Rescate, cuidado y adopción de animales en Colombia">
+    <title>Patitas Felices || Fundacion de Rescate Animal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../patitas-felices-web/CSS/style.css">
+    <link rel="stylesheet" href="../patitas-felices-web/CSS/responsive.css">
+
+
+</head>
+
+<body>
+<!--Hearder-->
+<header class="site-header">
+    <nav class="nav-bar">
+        <a href="../patitas-felices-web/img/LOGO PATITAS FELICES.jpeg" class="nav-logo">
+            🐾 <span>Patitas </span>Felices
+        </a>
+
+        <!--Menu-->
+        <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link active">Inicio</a></li>
+            <li><a href="adoptar.html" class="nav-link">Adoptar</a></li>
+            <li><a href="#donaciones" class="nav-link">Donaciones</a></li>
+            <li><a href="#voluntariado" class="nav-link">Voluntariado</a></li>
+            <li><a href="contacto.html" class="nav-link">Contacto/a></li>
+        </ul>
+
+        <a href="#donaciones" class="btn btn-nav">❤️</a>
+
+        <!--Boton de hamburguesa-->
+        <button class="hamburguer" aria-label="Abrir Menú">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+</header>
+
+<main>
+    <!--SECCIONES DE LA PAGINA 
+        hero 
+        carrusel
+        -->
+    <!-- HERO SECTION-->
+    <section class="hero" id="inicio">
+
+      <div class="hero-content">
+        <p class="hero-pretitulo">Fundación de Rescate Animal</p>
+        <h1 class="hero-titulo">Cada animal merece una segunda oportunidad</h1>
+        <p class="hero-slogan">
+          En Patitas Felices rescatamos, cuidamos y encontramos hogares
+          amorosos para animales que más lo necesitan.
+        </p>
+        <div class="hero-botones">
+          <a href="adoptar.html" class="btn btn-primario">Adopta ahora</a>
+          <a href="#quienes-somos" class="btn btn-secundario">Conócenos</a>
+        </div>
+      </div>
+
+      
+    </section>
+
+
+    <!-- SECCION CARRUSEL -->
+    <section class="carrusel-seccion" aria-label="Galería de actividades">
+
+      <div class="carrusel-contenedor">
+        <div class="carrusel-slide" style="animation-delay: 0s;">
+          <img src="../patitas-felices-web/img/adoptemos.jpeg" alt="Voluntarios rescatando animales">
+          <p class="carrusel-caption">Nuestros voluntarios en acción</p>
+        </div>
+
+        <div class="carrusel-slide" style="animation-delay: 3s;">
+          <img src="../patitas-felices-web/img/adoptemos.jpeg" alt="Jornada de adopción">
+          <p class="carrusel-caption">Jornadas de adopción cada mes</p>
+        </div>
+
+        <div class="carrusel-slide" style="animation-delay: 6s;">
+          <img src="..//patitas-felices-web/img/perros_felices.jpg" alt="Perros felices en el refugio">
+          <p class="carrusel-caption"> Más de 200 animales rescatados</p>
+        </div>
+
+        <div class="carrusel-slide" style="animation-delay: 9s;">
+          <img src="../patitas-felices-web/img/veterinaria-dra-cats.jpg" alt="Atención veterinaria">
+          <p class="carrusel-caption">Atención veterinaria gratuita</p>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- SECCION DESTACADAS-->
+    <section class="destacadas" id="quienes-somos">
+      <div class="container">
+
+        <header class="section-header">
+          <h2>¿Cómo puedes ayudar?</h2>
+          <p>Hay muchas formas de hacer parte del cambio</p>
+          <div class="divisor"></div>
+        </header>
+
+        <div class="destacadas-grid">
+
+          <article class="destacada-card">
+            <div class="card-icono"></div>
+            <h3>Adopta</h3>
+            <p>Dale un hogar a un animal que te necesita. 
+               Tenemos perros, gatos y más esperando por ti.</p>
+            <a href="adoptar.html" class="btn btn-primario">Ver animales</a>
+          </article>
+
+          <article class="destacada-card destacada-principal">
+            <div class="card-icono"></div>
+            <h3>Dona</h3>
+            <p>Tu aporte nos ayuda a cubrir alimentación, 
+               veterinaria y refugio para nuestros animales.</p>
+            <a href="#donaciones" class="btn btn-blanco">Donar ahora</a>
+          </article>
+
+          <article class="destacada-card">
+            <div class="card-icono"></div>
+            <h3>Voluntariado</h3>
+            <p>Dedica unas horas de tu tiempo. 
+               Necesitamos manos amorosas todos los fines de semana.</p>
+            <a href="#voluntariado" class="btn btn-primario">Unirme</a>
+          </article>
+
+          <article class="destacada-card">
+            <div class="card-icono"></div>
+            <h3>Contacto</h3>
+            <p>¿Tienes preguntas? ¿Encontraste un animal 
+               en situación de calle? Escríbenos.</p>
+            <a href="contacto.html" class="btn btn-primario">Contactar</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- SECCION MISISON Y VISION-->
+    <section class="mision-vision" id="mision">
+      <div class="container">
+
+        <header class="section-header">
+          <h2>Quiénes somos</h2>
+          <div class="divisor"></div>
+        </header>
+
+        <div class="mv-grid">
+          <!-- Misión -->
+          <article class="mv-card">
+            <div class="mv-icono">🎯</div>
+            <h3>Nuestra Misión</h3>
+            <p>
+              Rescatar, rehabilitar y reubicar animales en situación de 
+              abandono o maltrato, promoviendo una cultura de respeto 
+              y responsabilidad animal en toda la comunidad. 
+              Brindamos atención veterinaria, alimentación y amor 
+              a cada animal que llega a nuestro refugio.
+            </p>
+          </article>
+
+          <!-- Visión -->
+          <article class="mv-card mv-vision">
+            <div class="mv-icono">🌟</div>
+            <h3>Nuestra Visión</h3>
+            <p>
+              Ser la fundación líder en bienestar animal en Colombia, 
+              logrando un futuro donde ningún animal sufra abandono 
+              ni maltrato. Construimos comunidades conscientes 
+              donde cada ser vivo es valorado y protegido.
+            </p>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- SECCION GALERIA -->
+    <section class="galeria" id="galeria">
+      <div class="container">
+
+        <header class="section-header">
+          <h2>Nuestros momentos </h2>
+          <p>Rescates, adopciones y mucho amor</p>
+          <div class="divisor"></div>
+        </header>
+
+        <div class="galeria-grid">
+          <figure class="galeria-item galeria-grande">
+            <img src="../patitas-felices-web/img/adoptemos.jpeg" alt="Rescate de perros">
+            <figcaption>Rescate marzo 2025</figcaption>
+          </figure>
+
+          <figure class="galeria-item">
+            <img src="../patitas-felices-web/img/adoptemos.jpeg" alt="Gatos adoptados">
+            <figcaption>Adopciones exitosas</figcaption>
+          </figure>
+
+          <figure class="galeria-item">
+            <img src="../patitas-felices-web/img/adoptemos.jpeg" alt="Voluntarios">
+            <figcaption>Nuestros voluntarios</figcaption>
+          </figure>
+
+          <figure class="galeria-item galeria-ancha">
+            <img src="../patitas-felices-web/img/adoptemos.jpeg" alt="Jornada de vacunación">
+            <figcaption>Jornada de vacunación</figcaption>
+          </figure>
+
+          <figure class="galeria-item">
+            <img src="../patitas-felices-web/img/adoptemos.jpeg" alt="Animales felices">
+            <figcaption>Animales felices</figcaption>
+          </figure>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- SECCION ANIMALES DESTACADOS -->
+    <section class="animales-preview" id="adoptar">
+      <div class="container">
+
+        <header class="section-header">
+          <h2>Animales en adopción</h2>
+          <p>Estos peluditos esperan un hogar como el tuyo</p>
+          <div class="divisor"></div>
+        </header>
+
+        <div class="animales-grid">
+
+          <!-- Tarjeta animal 1 -->
+          <article class="animal-card">
+            <div class="animal-imagen">
+              <img src="../patitas-felices-web/img/labrador.webp" alt="Max, perro labrador">
+              <span class="animal-estado disponible">Disponible</span>
+            </div>
+            <div class="animal-info">
+              <h3>Max</h3>
+              <p class="animal-meta">Labrador · 2 años · Mediano</p>
+              <p class="animal-desc">Amigable, juguetón y muy cariñoso. 
+                 Le encanta correr en el parque.</p>
+              <a href="perfil-animal.html" class="btn btn-primario btn-pequeno">
+                Ver perfil
+              </a>
+            </div>
+          </article>
+
+          <!-- Tarjeta animal 2 -->
+          <article class="animal-card">
+            <div class="animal-imagen">
+              <img src="../patitas-felices-web/img/gata persa.jpeg" alt="Luna, gata persa">
+              <span class="animal-estado disponible">Disponible</span>
+            </div>
+            <div class="animal-info">
+              <h3>Luna</h3>
+              <p class="animal-meta">Persa · 1 año · Pequeña</p>
+              <p class="animal-desc">Tranquila y cariñosa. 
+                 Perfecta para apartamentos.</p>
+              <a href="perfil-animal.html" class="btn btn-primario btn-pequeno">
+                Ver perfil
+              </a>
+            </div>
+          </article>
+
+          <!-- Tarjeta animal 3 -->
+          <article class="animal-card">
+            <div class="animal-imagen">
+              <img src="../patitas-felices-web/img/perrom.avif" alt="Rocky, perro mestizo">
+              <span class="animal-estado adoptado">Adoptado ✓</span>
+            </div>
+            <div class="animal-info">
+              <h3>Rocky</h3>
+              <p class="animal-meta">Mestizo · 4 años · Grande</p>
+              <p class="animal-desc">Leal y protector. 
+                 Ya encontró su hogar eterno.</p>
+              <button class="btn btn-gris btn-pequeno" disabled>
+                Adoptado
+              </button>
+            </div>
+          </article>
+
+          <!-- Tarjeta animal 4 -->
+          <article class="animal-card">
+            <div class="animal-imagen">
+              <img src="../patitas-felices-web/img/conejo.jpeg" alt="Coco, conejo">
+              <span class="animal-estado disponible">Disponible</span>
+            </div>
+            <div class="animal-info">
+              <h3>Coco</h3>
+              <p class="animal-meta">Conejo · 8 meses · Pequeño</p>
+              <p class="animal-desc">Curioso e independiente. 
+                 Ideal para familias con niños.</p>
+              <a href="perfil-animal.html" class="btn btn-primario btn-pequeno">
+                Ver perfil
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="ver-todos">
+          <a href="adoptar.html" class="btn btn-primario btn-grande">
+            Ver todos los animales →
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- SECION TESTIMONISO -->
+    <section class="testimonios" id="testimonios">
+      <div class="container">
+
+        <header class="section-header">
+          <h2>Lo que dicen las familias</h2>
+          <div class="divisor"></div>
+        </header>
+
+        <div class="testimonios-grid">
+
+          <blockquote class="testimonio-card">
+            <!-- 
+              <blockquote>: etiqueta semántica para citas textuales.
+            -->
+            <p>"Adoptar a Milo fue la mejor decisión de nuestra familia. 
+               El proceso fue muy fácil y el equipo nos acompañó en todo."</p>
+            <footer>
+              <cite>— María González, adoptante 2024</cite>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonio-card testimonio-destacado">
+            <p>"Soy voluntaria hace 2 años y ha cambiado mi vida. 
+               Ver a los animales recuperarse y encontrar familia 
+               no tiene precio."</p>
+            <footer>
+              <cite>— Laura Pérez, voluntaria</cite>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonio-card">
+            <p>"Encontramos a Bella en muy mal estado. 
+               Gracias a Patitas Felices hoy es una perrita sana 
+               y llena de amor."</p>
+            <footer>
+              <cite>— Carlos Ruiz, adoptante 2025</cite>
+            </footer>
+          </blockquote>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- SECCION DONACIONES -->
+    <section class="donaciones" id="donaciones">
+      <div class="container">
+        <div class="donaciones-contenido">
+          <div class="donaciones-texto">
+            <h2>Tu apoyo salva vidas </h2>
+            <p>Con tu donación cubrimos alimentación, medicina 
+               veterinaria y el mantenimiento de nuestro refugio.</p>
+            <ul class="donaciones-lista">
+              <li>🍽️ $15.000 alimenta a un animal por una semana</li>
+              <li>💊 $50.000 cubre desparasitación completa</li>
+              <li>🏥 $150.000 financia una consulta veterinaria</li>
+            </ul>
+          </div>
+          <div class="donaciones-accion">
+            <a href="contacto.html" class="btn btn-primario btn-grande">
+              ❤️ Quiero donar
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- SECCION EXTRA VOLUNTARIADO -->
+    <section class="voluntariado" id="voluntariado">
+      <div class="container">
+
+        <header class="section-header">
+          <h2>Sé parte del cambio</h2>
+          <p>Necesitamos voluntarios cada fin de semana</p>
+          <div class="divisor"></div>
+        </header>
+
+        <div class="voluntariado-grid">
+          <article class="voluntariado-card">
+            <div class="vol-icono"></div>
+            <h3>Baño y Cuidado</h3>
+            <p>Ayuda con el aseo y cuidado diario de los animales.</p>
+          </article>
+          <article class="voluntariado-card">
+            <div class="vol-icono"></div>
+            <h3>Transporte</h3>
+            <p>Lleva animales a citas veterinarias y eventos.</p>
+          </article>
+          <article class="voluntariado-card">
+            <div class="vol-icono"></div>
+            <h3>Fotografía</h3>
+            <p>Toma fotos para las publicaciones de adopción.</p>
+          </article>
+          <article class="voluntariado-card">
+            <div class="vol-icono"></div>
+            <h3>Difusión</h3>
+            <p>Comparte en redes y ayuda con comunicaciones.</p>
+          </article>
+        </div>
+
+        <div class="ver-todos">
+          <a href="contacto.html" class="btn btn-secundario btn-grande">
+            Quiero ser voluntario
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- footer -->
+  <footer class="site-footer">
+    <div class="container">
+
+      <div class="footer-grid">
+
+        <!-- Columna 1: Marca -->
+        <div class="footer-marca">
+          <p class="footer-logo">🐾 Patitas Felices</p>
+          <p>Rescatamos, cuidamos y 
+             encontramos hogares amorosos.</p>
+          <p class="footer-copy">
+            © <time datetime="2025">2025</time> Fundación Patitas Felices.
+            Todos los derechos reservados.
+          </p>
+        </div>
+
+        <!-- Columna 2: Navegación -->
+        <nav aria-label="Navegación del footer">
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="adoptar.html">Adoptar</a></li>
+            <li><a href="#donaciones">Donaciones</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <!-- Columna 3: Contacto -->
+        <address>
+          <h4>Contáctanos</h4>
+          <p>📧 <a href="mailto:info@patitasfelices.org">
+               info@patitasfelices.org
+             </a>
+          </p>
+          <p>📱 <a href="tel:+573001234567">+57 300 123 4567</a></p>
+          <p>📍 Bucaramanga, Colombia</p>
+        </address>
+
+        <!-- Columna 4: Redes sociales -->
+        <div class="footer-redes">
+          <h4>Síguenos</h4>
+          <a href="#" class="red-social" aria-label="Instagram">Instagram</a>
+          <a href="#" class="red-social" aria-label="Facebook">Facebook</a>
+          <a href="#" class="red-social" aria-label="TikTok">TikTok</a>
+        </div>
+
+      </div>
+
+      
+      <div class="footer-bottom">
+        <p>
+          <small>
+            Desarrollado por 
+            <a href="https://github.com/yenico623" 
+               target="_blank" 
+               rel="noopener noreferrer">
+              Yenifer Cortez
+            </a>
+            — Proyecto académico 2026
+          </small>
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+
+</main>
+
+
+
+</body>
+</html>
