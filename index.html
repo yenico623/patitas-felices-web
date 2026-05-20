@@ -184,40 +184,49 @@
     </section>
 
 
-    <!-- SECCION GALERIA -->
+    <!-- SECCION GALERIA EXAMEN 
+    Grid de 6 imágenes representativas (rescates, voluntariado, adopciones).
+    Al pasar el cursor sobre cada imagen se muestre un caption (nombre breve / evento) 
+    y un ligero zoom (transform: scale())-->
+
     <section class="galeria" id="galeria">
       <div class="container">
 
         <header class="section-header">
-          <h2>Nuestros momentos </h2>
+          <h2>Nuestros momentos con nuestros peluditos. 💚</h2>
           <p>Rescates, adopciones y mucho amor</p>
           <div class="divisor"></div>
         </header>
 
         <div class="galeria-grid">
           <figure class="galeria-item galeria-grande">
-            <img src="../patitas-felices-web/img/adoptemos.jpeg" alt="Rescate de perros">
+            <img src="../patitas-felices-web/img/rescate.jpeg" alt="Rescate de perros">
             <figcaption>Rescate marzo 2025</figcaption>
           </figure>
 
           <figure class="galeria-item">
-            <img src="../patitas-felices-web/img/adoptemos.jpeg" alt="Gatos adoptados">
+            <img src="../patitas-felices-web/img/gatitos.avif" alt="Gatos adoptados">
             <figcaption>Adopciones exitosas</figcaption>
           </figure>
 
           <figure class="galeria-item">
-            <img src="../patitas-felices-web/img/adoptemos.jpeg" alt="Voluntarios">
+            <img src="../patitas-felices-web/img/voluntariados.jpeg" alt="Voluntarios">
             <figcaption>Nuestros voluntarios</figcaption>
           </figure>
 
           <figure class="galeria-item galeria-ancha">
-            <img src="../patitas-felices-web/img/adoptemos.jpeg" alt="Jornada de vacunación">
+            <img src="img/vacunacion.jpeg" alt="Jornada de vacunación">
             <figcaption>Jornada de vacunación</figcaption>
           </figure>
 
           <figure class="galeria-item">
-            <img src="../patitas-felices-web/img/adoptemos.jpeg" alt="Animales felices">
+            <img src="img/animales_felices.jpeg" alt="Animales felices">
             <figcaption>Animales felices</figcaption>
+          </figure>
+
+          <figure class="galeria-item">
+            <img src="img/dnaciones.jpeg" alt="Donaciones">
+            <figcaption>Donaciones felices</figcaption>
           </figure>
         </div>
 
@@ -317,7 +326,10 @@
     </section>
 
 
-    <!-- SECION TESTIMONISO -->
+    <!-- SECION TESTIMONIOS EXAMEN
+        Mostrar 3 testimonios en tarjetas: foto pequeña (placeholder), nombre del adoptante y 2–3 líneas de texto.
+        Las tarjetas deben tener estilo coherente (sombra suave, borde redondeado) y alineación horizontal en desktop, apiladas en móvil.
+        Agregar una pequeña cita o icono de comillas como elemento visu -->
     <section class="testimonios" id="testimonios">
       <div class="container">
 
@@ -329,9 +341,11 @@
         <div class="testimonios-grid">
 
           <blockquote class="testimonio-card">
-            <!-- 
-              <blockquote>: etiqueta semántica para citas textuales.
-            -->
+            <div class="animal-imagen">
+              <img src="../patitas-felices-web/img/dalmata.jpg" alt="Mascota Adoptada">
+            </div>
+            
+           
             <p>"Adoptar a Milo fue la mejor decisión de nuestra familia. 
                El proceso fue muy fácil y el equipo nos acompañó en todo."</p>
             <footer>
@@ -340,6 +354,9 @@
           </blockquote>
 
           <blockquote class="testimonio-card testimonio-destacado">
+            <div class="animal-imagen">
+              <img src="../patitas-felices-web/img/testimonio_voluntaria.jpeg" alt="Voluntariado testimonio">
+            </div>
             <p>"Soy voluntaria hace 2 años y ha cambiado mi vida. 
                Ver a los animales recuperarse y encontrar familia 
                no tiene precio."</p>
@@ -349,6 +366,10 @@
           </blockquote>
 
           <blockquote class="testimonio-card">
+            <div class="animal-imagen">
+              <img src="../patitas-felices-web/img/bella.jpeg" alt="Perrita adoptada">
+            </div>
+            
             <p>"Encontramos a Bella en muy mal estado. 
                Gracias a Patitas Felices hoy es una perrita sana 
                y llena de amor."</p>
@@ -386,7 +407,7 @@
     </section>
 
 
-    <!-- SECCION EXTRA VOLUNTARIADO -->
+    <!-- SECCION EXTRA VOLUNTARIADO EXAMEN -->
     <section class="voluntariado" id="voluntariado">
       <div class="container">
 
